@@ -1,0 +1,366 @@
+Folder PATH listing
+Volume serial number is 00000027 E48C:B851
+C:.
+³   .replit
+³   drizzle.config.ts
+³   package-lock.json
+³   package.json
+³   postcss.config.js
+³   project_structure.txt
+³   replit.md
+³   tailwind.config.ts
+³   tsconfig.json
+³   vite.config.ts
+³   
+ÃÄÄÄ.config
+³   ÀÄÄÄnpm
+³       ÀÄÄÄnode_global
+³           ÀÄÄÄlib
+ÃÄÄÄ.git
+³   ³   COMMIT_EDITMSG
+³   ³   config
+³   ³   description
+³   ³   FETCH_HEAD
+³   ³   HEAD
+³   ³   index
+³   ³   
+³   ÃÄÄÄhooks
+³   ³       applypatch-msg.sample
+³   ³       commit-msg.sample
+³   ³       fsmonitor-watchman.sample
+³   ³       post-update.sample
+³   ³       pre-applypatch.sample
+³   ³       pre-commit.sample
+³   ³       pre-merge-commit.sample
+³   ³       pre-push.sample
+³   ³       pre-rebase.sample
+³   ³       pre-receive.sample
+³   ³       prepare-commit-msg.sample
+³   ³       push-to-checkout.sample
+³   ³       sendemail-validate.sample
+³   ³       update.sample
+³   ³       
+³   ÃÄÄÄinfo
+³   ³       exclude
+³   ³       
+³   ÃÄÄÄlogs
+³   ³   ³   HEAD
+³   ³   ³   
+³   ³   ÀÄÄÄrefs
+³   ³       ÃÄÄÄheads
+³   ³       ³       main
+³   ³       ³       replit-agent
+³   ³       ³       
+³   ³       ÀÄÄÄremotes
+³   ³           ÀÄÄÄorigin
+³   ³                   main
+³   ³                   
+³   ÃÄÄÄobjects
+³   ³   ÃÄÄÄ08
+³   ³   ³       3936909ab1fd1ca5ae895bbd5cfbcc98c1798d
+³   ³   ³       
+³   ³   ÃÄÄÄ09
+³   ³   ³       3e9582dfcb58d6d365683c7a9e68850adb2ed6
+³   ³   ³       6485626259fd4151aba4fb958fb8d3a56f26a1
+³   ³   ³       
+³   ³   ÃÄÄÄ12
+³   ³   ³       a85d2f6d60193b612d67787307a7fa48592259
+³   ³   ³       
+³   ³   ÃÄÄÄ14
+³   ³   ³       73c0e439c62bed3d58aa6001a1c977cb9fcf17
+³   ³   ³       
+³   ³   ÃÄÄÄ15
+³   ³   ³       04f0c42f21ddb56ab8717f709d520fd1335384
+³   ³   ³       80954e61707246278884d7386f8db01860e98a
+³   ³   ³       
+³   ³   ÃÄÄÄ26
+³   ³   ³       b0bf96b2eb01d735cab5facad25e9031172d9d
+³   ³   ³       
+³   ³   ÃÄÄÄ2f
+³   ³   ³       bf7d7438ff0f021ec051f370f383dfadc817e8
+³   ³   ³       
+³   ³   ÃÄÄÄ48
+³   ³   ³       b6a614e8860bc7fff5368fdfaa86ef7931f37a
+³   ³   ³       
+³   ³   ÃÄÄÄ4c
+³   ³   ³       d528d74bd81ec3a2086983d53531c56b641363
+³   ³   ³       
+³   ³   ÃÄÄÄ61
+³   ³   ³       1d5c395ce502b111fb5f461e6d628c960b00cd
+³   ³   ³       94d71e65e10379ac93b3325c200daba649aea2
+³   ³   ³       
+³   ³   ÃÄÄÄ6a
+³   ³   ³       49bce34845f07d0dc2771541416cd6f840721f
+³   ³   ³       
+³   ³   ÃÄÄÄ6d
+³   ³   ³       1db7cbde712f4e23a8826ca4eb43aaae510b88
+³   ³   ³       
+³   ³   ÃÄÄÄ72
+³   ³   ³       868c3038b7ad4b246aad37f98a3d2c5ac59ebb
+³   ³   ³       
+³   ³   ÃÄÄÄ74
+³   ³   ³       0be6f6243f8bf1a30efd49f8eaabcbf2739fc3
+³   ³   ³       
+³   ³   ÃÄÄÄ7e
+³   ³   ³       254fd365794254db54c7306f0ff3c2fdaf65c6
+³   ³   ³       4f6532175677adc1f003c337d2fdcb69b674ec
+³   ³   ³       
+³   ³   ÃÄÄÄ81
+³   ³   ³       3210ebdeed76f693f0a60040726b24a70483ba
+³   ³   ³       
+³   ³   ÃÄÄÄ85
+³   ³   ³       8ded239c27c768a8dad8ae49a8dbbb6fd6ec8a
+³   ³   ³       
+³   ³   ÃÄÄÄ8a
+³   ³   ³       2821d7a3abece39a9cb687222c7dde8ca21a68
+³   ³   ³       
+³   ³   ÃÄÄÄ8c
+³   ³   ³       b4a905e33beebfec6cbef8a2cdb48fee84dc44
+³   ³   ³       
+³   ³   ÃÄÄÄ91
+³   ³   ³       9c7ee5c1acdd876ff11b61e7e82488c1a6a435
+³   ³   ³       
+³   ³   ÃÄÄÄ93
+³   ³   ³       91418c6f38cceaeb3c1e94fc4f851643a3e2de
+³   ³   ³       
+³   ³   ÃÄÄÄ99
+³   ³   ³       90549f351ddd129734df6324f2ef40da5713f9
+³   ³   ³       
+³   ³   ÃÄÄÄ9a
+³   ³   ³       83ea0a5f057cdc95fe633b6117776f6dd172fb
+³   ³   ³       
+³   ³   ÃÄÄÄ9f
+³   ³   ³       82db9b15e824e905684ec259c25934a4ba8cd0
+³   ³   ³       
+³   ³   ÃÄÄÄa8
+³   ³   ³       d7620b2608a7974e9545d392efcc06b2a1e03f
+³   ³   ³       
+³   ³   ÃÄÄÄab
+³   ³   ³       ba634ba8fc278acc5a3682412e1607472f7080
+³   ³   ³       
+³   ³   ÃÄÄÄb0
+³   ³   ³       d21588448182919d80609b84f0709dd2485a84
+³   ³   ³       
+³   ³   ÃÄÄÄb5
+³   ³   ³       80e62082fd46e7f648f61a76f98e9f37d1b18d
+³   ³   ³       
+³   ³   ÃÄÄÄb7
+³   ³   ³       43b1d74197d9cb078ca265bbc879248d4941d5
+³   ³   ³       
+³   ³   ÃÄÄÄb8
+³   ³   ³       f585ece1868888ae7e3cc7a1b0b5b972d77d42
+³   ³   ³       
+³   ³   ÃÄÄÄbb
+³   ³   ³       5b689e58f305b0d1d861f37bf59a918657ea7c
+³   ³   ³       
+³   ³   ÃÄÄÄc2
+³   ³   ³       6448c7f8b69625476ef0d7034ae33d8e06905b
+³   ³   ³       
+³   ³   ÃÄÄÄc7
+³   ³   ³       283d609f20c4dc3ced2b3dc7a1cdd31f7f09a8
+³   ³   ³       
+³   ³   ÃÄÄÄc8
+³   ³   ³       650fc93ca0409da825d6729c841e65c165e9a3
+³   ³   ³       
+³   ³   ÃÄÄÄcb
+³   ³   ³       7ae6fd153c0b2f6c42fe9488597cf5513e668a
+³   ³   ³       
+³   ³   ÃÄÄÄd2
+³   ³   ³       cb7e84b166d491cbfc7d18bbea6faa462f9dda
+³   ³   ³       f979811ecb8be427ff08146e029cf84b276ce6
+³   ³   ³       
+³   ³   ÃÄÄÄdb
+³   ³   ³       acd9c7628eeee56f7eeb727580886ef25a4158
+³   ³   ³       
+³   ³   ÃÄÄÄe1
+³   ³   ³       8966e737dc99653cdadfd3e6a86711f3747b8e
+³   ³   ³       
+³   ³   ÃÄÄÄe3
+³   ³   ³       98a7c7dd06cfd48ad0c1e80b4fe406d5b2cd41
+³   ³   ³       
+³   ³   ÃÄÄÄea
+³   ³   ³       4e89fa40615594f9e8fa89e7f45dfe4ea922bb
+³   ³   ³       
+³   ³   ÃÄÄÄeb
+³   ³   ³       bd40a6de81e40d1cc1f3807b802a1548ea5bd0
+³   ³   ³       
+³   ³   ÃÄÄÄec
+³   ³   ³       1752a4ec20284d72022c8da01392349e26626c
+³   ³   ³       
+³   ³   ÃÄÄÄed
+³   ³   ³       132a89768c6d78039b3ac25cec563914fa0136
+³   ³   ³       
+³   ³   ÃÄÄÄf3
+³   ³   ³       edd06a9c9773fa2176ae5d6fed695172fe66a6
+³   ³   ³       
+³   ³   ÃÄÄÄf9
+³   ³   ³       6f781344cc8ead01b8592d9d732f12e95514d6
+³   ³   ³       
+³   ³   ÃÄÄÄfd
+³   ³   ³       46abbca094e2bc8e64bd72623299ecf2e1d3e1
+³   ³   ³       
+³   ³   ÃÄÄÄinfo
+³   ³   ÀÄÄÄpack
+³   ³           pack-5324ef4ee3709a41ed0555aab5f3308a1ced6ba4.idx
+³   ³           pack-5324ef4ee3709a41ed0555aab5f3308a1ced6ba4.pack
+³   ³           pack-5324ef4ee3709a41ed0555aab5f3308a1ced6ba4.rev
+³   ³           
+³   ÀÄÄÄrefs
+³       ÃÄÄÄheads
+³       ³       main
+³       ³       replit-agent
+³       ³       
+³       ÃÄÄÄremotes
+³       ³   ÀÄÄÄorigin
+³       ³           main
+³       ³           
+³       ÃÄÄÄreplit
+³       ³       agent-ledger
+³       ³       
+³       ÀÄÄÄtags
+ÃÄÄÄ.local
+³   ÀÄÄÄstate
+³       ÀÄÄÄreplit
+³           ÀÄÄÄagent
+³                   .agent_state_093e9582dfcb58d6d365683c7a9e68850adb2ed6.bin
+³                   .agent_state_12a85d2f6d60193b612d67787307a7fa48592259.bin
+³                   .agent_state_6194d71e65e10379ac93b3325c200daba649aea2.bin
+³                   .agent_state_813210ebdeed76f693f0a60040726b24a70483ba.bin
+³                   .agent_state_9a83ea0a5f057cdc95fe633b6117776f6dd172fb.bin
+³                   .agent_state_9f82db9b15e824e905684ec259c25934a4ba8cd0.bin
+³                   .agent_state_abba634ba8fc278acc5a3682412e1607472f7080.bin
+³                   .agent_state_b580e62082fd46e7f648f61a76f98e9f37d1b18d.bin
+³                   .agent_state_bb5b689e58f305b0d1d861f37bf59a918657ea7c.bin
+³                   .agent_state_e398a7c7dd06cfd48ad0c1e80b4fe406d5b2cd41.bin
+³                   .agent_state_main.bin
+³                   .latest.json
+³                   repl_state.bin
+³                   
+ÃÄÄÄattached_assets
+³       drizzle.config_1758625952906.ts
+³       package_1758625879791.json
+³       Pasted-Game-Name-The-Hyderabad-Chronicles-Escape-Uncover-Backstory-The-protagonist-Ayaan-Malik-a--1758627667217_1758627667218.txt
+³       Pasted-Subject-Continue-and-Optimize-3D-Adventure-Game-Teenage-Journalist-Spy-Thriller-Description-I--1758625586818_1758625586819.txt
+³       tailwind.config_1758625949750.ts
+³       tsconfig_1758625887983.json
+³       vite.config_1758625947131.ts
+³       _1758626005768.replit
+³       
+ÃÄÄÄclient
+³   ³   index.html
+³   ³   
+³   ÃÄÄÄpublic
+³   ³   ÃÄÄÄfonts
+³   ³   ³       inter.json
+³   ³   ³       
+³   ³   ÃÄÄÄgeometries
+³   ³   ³       heart.gltf
+³   ³   ³       
+³   ³   ÃÄÄÄmodels
+³   ³   ÃÄÄÄsounds
+³   ³   ³       background.mp3
+³   ³   ³       hit.mp3
+³   ³   ³       success.mp3
+³   ³   ³       
+³   ³   ÀÄÄÄtextures
+³   ³           asphalt.png
+³   ³           grass.png
+³   ³           sand.jpg
+³   ³           sky.png
+³   ³           wood.jpg
+³   ³           
+³   ÀÄÄÄsrc
+³       ³   App.tsx
+³       ³   index.css
+³       ³   main.tsx
+³       ³   
+³       ÃÄÄÄcomponents
+³       ³   ³   Enemy.tsx
+³       ³   ³   Environment.tsx
+³       ³   ³   Gadgets.tsx
+³       ³   ³   Game.tsx
+³       ³   ³   GameUI.tsx
+³       ³   ³   HackingMinigame.tsx
+³       ³   ³   InteractiveObject.tsx
+³       ³   ³   Level1Manager.tsx
+³       ³   ³   MainMenu.tsx
+³       ³   ³   MissionSelector.tsx
+³       ³   ³   Player.tsx
+³       ³   ³   
+³       ³   ÀÄÄÄui
+³       ³           accordion.tsx
+³       ³           alert-dialog.tsx
+³       ³           alert.tsx
+³       ³           aspect-ratio.tsx
+³       ³           avatar.tsx
+³       ³           badge.tsx
+³       ³           breadcrumb.tsx
+³       ³           button.tsx
+³       ³           calendar.tsx
+³       ³           card.tsx
+³       ³           carousel.tsx
+³       ³           chart.tsx
+³       ³           checkbox.tsx
+³       ³           collapsible.tsx
+³       ³           command.tsx
+³       ³           context-menu.tsx
+³       ³           dialog.tsx
+³       ³           drawer.tsx
+³       ³           dropdown-menu.tsx
+³       ³           form.tsx
+³       ³           hover-card.tsx
+³       ³           input-otp.tsx
+³       ³           input.tsx
+³       ³           interface.tsx
+³       ³           label.tsx
+³       ³           menubar.tsx
+³       ³           navigation-menu.tsx
+³       ³           pagination.tsx
+³       ³           popover.tsx
+³       ³           progress.tsx
+³       ³           radio-group.tsx
+³       ³           resizable.tsx
+³       ³           scroll-area.tsx
+³       ³           select.tsx
+³       ³           separator.tsx
+³       ³           sheet.tsx
+³       ³           sidebar.tsx
+³       ³           skeleton.tsx
+³       ³           slider.tsx
+³       ³           sonner.tsx
+³       ³           switch.tsx
+³       ³           table.tsx
+³       ³           tabs.tsx
+³       ³           textarea.tsx
+³       ³           toggle-group.tsx
+³       ³           toggle.tsx
+³       ³           tooltip.tsx
+³       ³           
+³       ÃÄÄÄhooks
+³       ³       use-is-mobile.tsx
+³       ³       
+³       ÃÄÄÄlib
+³       ³   ³   gameConstants.ts
+³       ³   ³   gameUtils.ts
+³       ³   ³   queryClient.ts
+³       ³   ³   utils.ts
+³       ³   ³   
+³       ³   ÀÄÄÄstores
+³       ³           useAudio.tsx
+³       ³           useGame.tsx
+³       ³           useGameState.tsx
+³       ³           useInventory.tsx
+³       ³           usePlayer.tsx
+³       ³           
+³       ÀÄÄÄpages
+³               not-found.tsx
+³               
+ÃÄÄÄserver
+³       index.ts
+³       routes.ts
+³       storage.ts
+³       vite.ts
+³       
+ÀÄÄÄshared
+        schema.ts
+        

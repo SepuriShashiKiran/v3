@@ -1,0 +1,106 @@
+Game Name: "The Hyderabad Chronicles: Escape & Uncover"
+
+Backstory:
+The protagonist, Ayaan Malik, a regular 17-year-old high school student from Hyderabad, discovers a covert operation run by a corrupt organization in the city. While writing for his school’s student newspaper, Ayaan accidentally stumbles upon critical information about a local business tycoon, Raghav "The Tycoon" Varma, who secretly runs a large-scale criminal empire under the guise of a philanthropic tech startup. Ayaan’s journalistic curiosity leads him into danger when he gets captured by Varma’s goons after discovering a crucial document.
+
+With the help of his best friend Riya Deshmukh, a tech-savvy hacker and martial artist, Ayaan must escape from captivity, find his friend, and deliver the evidence to the police, all while evading Varma’s goons and making tough choices about how to expose the truth.
+
+Levels:
+Level 1: The Locked Room (Escape Room Puzzle)
+
+Setting: Ayaan wakes up in a small, locked room in a rundown building on the outskirts of Hyderabad, somewhere in Banjara Hills.
+
+Objective:
+
+Ayaan needs to solve puzzles related to items found around the room (books, newspapers, a cricket bat, a broken fan, etc.).
+
+He finds clues related to his location and the purpose of his capture through hidden documents and QR codes.
+
+He must unlock the door using a combination lock system, after finding hidden numbers (e.g., dates of important events like Hyderabad’s Liberation Day, etc.).
+
+Additional Task: Hack into a nearby laptop (with Riya’s help via the phone) to disable the security system that locks the door.
+
+Level 2: Parkour Escape (Navigating through City Streets)
+
+Setting: Ayaan escapes the room and must navigate the narrow alleyways of a local Hyderabadi neighborhood near Charminar.
+
+Objective:
+
+Avoid obstacles (narrow walls, rooftops) and parkour through the streets. Jump over broken fences, scale small walls, and leap across gaps between buildings.
+
+There’s a chase sequence where Ayaan needs to avoid goons trying to catch him. The parkour mechanics should be simple but require good timing.
+
+Additional Task: Collect a few hidden items (a mobile phone charger, a pack of biryani, a hidden map, etc.) which are useful later for Ayaan to escape the goons.
+
+Level 3: Rescue Riya (Finding and Saving the Friend)
+
+Setting: Ayaan locates Riya, who has been locked in a separate room within the same building. The building is a shady tech startup with hidden underground facilities.
+
+Objective:
+
+Solve a puzzle by figuring out the access code from hints (dates of notable events in the history of Hyderabad or local knowledge, e.g., key landmarks).
+
+Ayaan can use a combination of both his and Riya’s skills: his ability to read physical clues, and Riya’s tech expertise (solving a digital puzzle, bypassing the system).
+
+Level 4: The Vehicle Chase (Escape on the Streets)
+
+Setting: After freeing Riya, Ayaan and Riya steal a motorcycle from the building's garage and have to race through Hyderabad’s streets—starting from MG Road and through Ameerpet, avoiding goons in cars.
+
+Objective:
+
+Drive through a small city map, avoiding traffic, barricades, and enemy vehicles trying to stop them.
+
+The motorcycle should be fast, with some light control over speed and direction, avoiding obstacles (rickshaws, street vendors, potholes).
+
+There are a few jumps and tight turns, especially near famous places like Hussain Sagar Lake.
+
+Additional Task: Collect useful items from roadside stalls (e.g., snacks, first aid kits) to boost health during the chase.
+
+Level 5: Deliver the Evidence (Final Decision and Outcome)
+
+Setting: Ayaan and Riya are on the run and must decide whether to confront Raghav Varma at his mansion in Jubilee Hills or take the evidence to the police at Kachiguda Police Station.
+
+Objective:
+
+Make a choice: confront Varma and expose him directly or evade him by handing the evidence to the authorities.
+
+The moral decision here can affect the outcome—Ayaan could either be praised for his bravery and the truth exposed, or he might have to deal with the consequences of his decision if he chooses to fight back.
+
+Moral Decision: Should Ayaan confront the powerful tycoon head-on or play it safe and avoid further violence? This choice will shape the ending.
+
+Gameplay Features and Additions:
+
+1. Dialogue and Choices:
+
+Throughout the game, Ayaan will make decisions that can impact the storyline (e.g., "Do you want to avoid the goons by sneaking through the market or confront them directly?").
+
+Choices will be influenced by Ayaan's personality (courageous, sarcastic, clever) and his relationship with Riya.
+
+2. Parkour and Street Navigation:
+
+In addition to parkour, Ayaan will have the option to interact with environment objects like benches, trash bins, street lights, and vehicles to avoid obstacles or use them as cover during the chase.
+
+3. Weaponless Combat & Gadgets:
+
+Hand-to-hand combat: While Ayaan doesn't use traditional weapons, he can use everyday objects around him (like a cricket bat, laptop, or a frying pan) to fight back against the goons.
+
+Gadgets: Riya hacks into a few security cameras and gadgets along the way to help Ayaan avoid detection. She might also send him helpful items, such as a grappling hook or a smoke bomb.
+
+4. Minor Tasks and Interactions:
+
+Local Culture: Ayaan might interact with local street vendors, use public transport (auto-rickshaws), or ask for directions from locals, adding immersion and humor into the game.
+
+Hyderabadi Flavor: The game will feature lots of local culture—dialogue in Hyderabadi Hindi (with some Telugu slang), references to popular food like Hyderabadi Biryani, and mentions of famous landmarks.
+
+Task Example: While on the motorcycle chase, Ayaan might stop by a chai tapri (tea stall) to gather information or avoid a goon.
+
+Visual Style:
+
+Low-poly models: Simple, clean city buildings, roads, and environments based on real-life Hyderabad locations but in a stylized, minimalistic way.
+
+Character design: Ayaan and Riya will have a slightly cartoonish, simple look to keep things efficient but expressive.
+
+Color palette: Warm, dusty colors of Hyderabad with bright neon accents for streetlights and signs to give it an energetic, action-movie feel.
+
+End Goal:
+To complete the game, Ayaan and Riya will either expose the truth to the police or confront the villain, depending on the player’s choices. The game could end with Ayaan getting a message from Riya: “Mission complete. We did it, Hyderabad’s streets are safe… for now.” A mini-credits roll in a 3D cutscene style could conclude the story.
