@@ -150,14 +150,14 @@ export default function HackingMinigame({ onClose }: HackingMinigameProps) {
       <div className="fixed inset-0 bg-black bg-opacity-95 flex items-center justify-center z-100">
         <div className="spy-panel border-green-400">
           <div className="p-8 text-center">
-            <div className="text-green-400 text-2xl font-bold mb-4">ACCESS GRANTED</div>
-            <div className="text-white mb-2">System successfully compromised</div>
+            <div className="text-green-400 text-2xl font-bold mb-4">HACK SUCCESSFUL</div>
+            <div className="text-white mb-2">Security system bypassed with Riya's help!</div>
             <div className="text-blue-400 mb-4">Final Score: {score} points</div>
             <div className="text-xs text-gray-400 mb-4">
               Time remaining: {timeLeft}s | Efficiency: {Math.round((score / 450) * 100)}%
             </div>
             <button className="spy-button" onClick={closeHacking}>
-              DOWNLOAD DATA
+              COMPLETE HACK
             </button>
           </div>
         </div>
@@ -172,8 +172,8 @@ export default function HackingMinigame({ onClose }: HackingMinigameProps) {
           {/* Header */}
           <div className="flex justify-between items-center mb-6">
             <div>
-              <h2 className="spy-text text-xl font-bold">SYSTEM INTRUSION</h2>
-              <div className="text-xs text-blue-400">Bypassing corporate security protocols</div>
+              <h2 className="spy-text text-xl font-bold">RIYA'S REMOTE HACK</h2>
+              <div className="text-xs text-blue-400">Helping Ayaan bypass the security system</div>
             </div>
             <div className="text-right">
               <div className="text-green-400 text-lg font-mono">{timeLeft}s</div>
@@ -205,9 +205,9 @@ export default function HackingMinigame({ onClose }: HackingMinigameProps) {
           {/* Binary Decoding Stage */}
           {stage === 'binary' && (
             <div>
-              <h3 className="text-green-400 text-lg font-bold mb-4">BINARY DECRYPTION</h3>
+              <h3 className="text-green-400 text-lg font-bold mb-4">STEP 1: BINARY DECRYPTION</h3>
               <div className="mb-4">
-                <div className="text-xs text-gray-400 mb-2">Decode the binary sequence:</div>
+                <div className="text-xs text-gray-400 mb-2">Riya: "Decode this binary sequence to access the first layer:"</div>
                 <div className="bg-gray-900 p-4 rounded border border-green-400 font-mono text-green-400">
                   {binaryChallenge}
                 </div>
@@ -234,10 +234,10 @@ export default function HackingMinigame({ onClose }: HackingMinigameProps) {
           {/* Caesar Cipher Stage */}
           {stage === 'cipher' && (
             <div>
-              <h3 className="text-green-400 text-lg font-bold mb-4">CIPHER DECRYPTION</h3>
+              <h3 className="text-green-400 text-lg font-bold mb-4">STEP 2: CIPHER DECRYPTION</h3>
               <div className="mb-4">
                 <div className="text-xs text-gray-400 mb-2">
-                  Decrypt the Caesar cipher (Shift: {cipherKey}):
+                  Riya: "Now decrypt this Caesar cipher. I found the shift key: {cipherKey}"
                 </div>
                 <div className="bg-gray-900 p-4 rounded border border-green-400 font-mono text-green-400">
                   {cipherText}
@@ -265,10 +265,10 @@ export default function HackingMinigame({ onClose }: HackingMinigameProps) {
           {/* Pattern Recognition Stage */}
           {stage === 'pattern' && (
             <div>
-              <h3 className="text-green-400 text-lg font-bold mb-4">PATTERN RECOGNITION</h3>
+              <h3 className="text-green-400 text-lg font-bold mb-4">STEP 3: FINAL SECURITY LAYER</h3>
               <div className="mb-4">
                 <div className="text-xs text-gray-400 mb-2">
-                  {showingPattern ? 'Memorize this sequence:' : 'Reproduce the sequence:'}
+                  {showingPattern ? 'Riya: "Memorize this security pattern:"' : 'Riya: "Now reproduce the pattern exactly:"'}
                 </div>
                 <div className="grid grid-cols-6 gap-2 mb-4">
                   {pattern.map((num, index) => (
@@ -305,7 +305,7 @@ export default function HackingMinigame({ onClose }: HackingMinigameProps) {
               </div>
               <div className="text-xs text-gray-400">
                 {showingPattern
-                  ? 'Study the pattern carefully...'
+                  ? 'Study the pattern carefully... Riya is analyzing the system...'
                   : `Enter sequence: ${userPattern.length}/${pattern.length}`}
               </div>
             </div>
@@ -314,10 +314,10 @@ export default function HackingMinigame({ onClose }: HackingMinigameProps) {
           {/* Footer */}
           <div className="mt-6 pt-4 border-t border-gray-700 flex justify-between items-center">
             <button className="spy-button border-red-400 text-red-400" onClick={closeHacking}>
-              ABORT HACK
+              DISCONNECT
             </button>
             <div className="text-xs text-gray-400">
-              Security Level: CORPORATE | Encryption: AES-256
+              Target: Door Security System | Status: In Progress
             </div>
           </div>
         </div>

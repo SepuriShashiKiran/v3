@@ -111,7 +111,7 @@ export default function GameUI() {
         <div className="spy-panel pointer-events-auto max-w-sm">
           <div className="p-4">
             <div className="flex items-center justify-between mb-2">
-              <h3 className="spy-text font-bold text-sm">OPERATION SHADOW</h3>
+              <h3 className="spy-text font-bold text-sm">THE HYDERABAD CHRONICLES</h3>
               <div className="text-xs text-blue-400">{formatMissionTime(missionTimer)}</div>
             </div>
             
@@ -119,7 +119,7 @@ export default function GameUI() {
             <div className="mb-3">
               <div className="text-xs text-green-400 mb-1">CURRENT OBJECTIVE:</div>
               <div className="text-sm text-white">
-                {currentObjective || "Infiltrate the warehouse and retrieve the classified documents"}
+                {currentObjective || "Examine the room for clues and hidden items"}
               </div>
             </div>
 
@@ -225,7 +225,7 @@ export default function GameUI() {
             </div>
             <div className="grid grid-cols-3 gap-4 mt-1">
               <span>F: HACK</span>
-              <span>1-3: GADGETS</span>
+              <span>ESC: MENU</span>
               <span>ESC: PAUSE</span>
             </div>
           </div>
@@ -267,8 +267,25 @@ export default function GameUI() {
         <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-70">
           <div className="spy-panel border-red-400 mission-critical">
             <div className="p-4 text-center">
-              <div className="text-red-400 text-xl font-bold mb-2">COMPROMISED</div>
-              <div className="text-white text-sm">Cover blown! Evade immediately!</div>
+              <div className="text-red-400 text-xl font-bold mb-2">SECURITY ALERT</div>
+              <div className="text-white text-sm">Someone's coming! Stay quiet and hidden!</div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Level 1 specific tutorial overlay */}
+      {gamePhase === 'playing' && missionTimer < 10 && (
+        <div className="fixed top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-auto z-60">
+          <div className="spy-panel border-green-400">
+            <div className="p-4 text-center max-w-md">
+              <div className="text-green-400 text-lg font-bold mb-2">LEVEL 1: ESCAPE ROOM</div>
+              <div className="text-white text-sm mb-2">
+                You're locked in a room in Banjara Hills. Find clues, solve puzzles, and escape!
+              </div>
+              <div className="text-xs text-gray-400">
+                Look for interactive objects (they glow green when you're near them)
+              </div>
             </div>
           </div>
         </div>

@@ -106,7 +106,7 @@ export default function Environment() {
           size={[0.3, 2, 0.1]}
           color="#8b4513"
           name="Cricket Bat"
-          description="A worn cricket bat - could be useful for breaking something"
+          description="A well-used cricket bat. Every Hyderabadi kid has one of these!"
           type="pickup"
         />
         
@@ -116,7 +116,7 @@ export default function Environment() {
           size={[1.5, 0.1, 1]}
           color="#f5deb3"
           name="Old Newspapers"
-          description="Hyderabad newspapers from September 17, 1948 - Liberation Day!"
+          description="Stack of yellowed newspapers. The headlines mention important dates..."
           type="examine"
           onInteract={() => {
             // Connect to Level1Manager
@@ -132,7 +132,7 @@ export default function Environment() {
           size={[1.2, 0.1, 0.8]}
           color="#2f4f4f"
           name="Old Laptop"
-          description="Vintage laptop - press F to hack with Riya's help"
+          description="An old laptop with a blinking cursor. Riya could help hack this remotely."
           type="hack"
           onInteract={() => {
             // Connect to Level1Manager
@@ -144,7 +144,11 @@ export default function Environment() {
           {/* Laptop screen */}
           <mesh position={[0, 0.3, -0.3]}>
             <boxGeometry args={[1.2, 0.8, 0.1]} />
-            <meshStandardMaterial color="#000000" />
+            <meshStandardMaterial 
+              color="#000000" 
+              emissive="#003300"
+              emissiveIntensity={0.1}
+            />
           </mesh>
         </InteractiveObject>
         
@@ -154,7 +158,7 @@ export default function Environment() {
           size={[0.5, 1, 0.3]}
           color="#c0c0c0"
           name="Combination Lock"
-          description="Electronic lock - needs numbers from Liberation Day"
+          description="Electronic door lock with a digital display. Needs a code to unlock."
           type="unlock"
           requiredItem="liberation_date"
           onInteract={() => {
@@ -169,8 +173,8 @@ export default function Environment() {
             <boxGeometry args={[0.1, 0.5, 0.5]} />
             <meshStandardMaterial 
               color="#000000" 
-              emissive="#ff0000" 
-              emissiveIntensity={0.2} 
+              emissive="#ff6b35" 
+              emissiveIntensity={0.3} 
             />
           </mesh>
         </InteractiveObject>
@@ -181,7 +185,7 @@ export default function Environment() {
           size={[0.2, 0.3, 0.2]}
           color="#d2691e"
           name="Irani Chai Glass"
-          description="Traditional Hyderabadi tea glass - might hide something"
+          description="A traditional Irani chai glass. Still warm... someone was here recently."
           type="examine"
         />
         
@@ -191,7 +195,7 @@ export default function Environment() {
           size={[0.3, 0.1, 0.3]}
           color="#f8f8ff"
           name="Pearl Necklace"
-          description="Beautiful Hyderabadi pearls - a clue perhaps?"
+          description="Lustrous Hyderabadi pearls scattered on the floor. Why were they left behind?"
           type="pickup"
         />
         
@@ -201,20 +205,49 @@ export default function Environment() {
           size={[1, 0.3, 1]}
           color="#ff6347"
           name="Biryani Box"
-          description="Paradise Biryani takeaway box - check for hidden notes"
+          description="Empty Paradise Biryani box. Maybe there's something hidden inside?"
           type="examine"
+        />
+
+        {/* Additional clue items */}
+        <InteractiveObject
+          position={[6, 0.5, -2]}
+          size={[0.5, 0.1, 0.3]}
+          color="#8b4513"
+          name="Leather Journal"
+          description="A worn leather journal with notes about Hyderabad's history."
+          type="examine"
+        />
+
+        <InteractiveObject
+          position={[-2, 1.5, -6]}
+          size={[0.3, 0.3, 0.1]}
+          color="#ffd700"
+          name="Old Photograph"
+          description="A faded photograph of Charminar with a date written on the back."
+          type="pickup"
         />
         
         {/* Window (locked) */}
         <mesh position={[-11, 8, 0]} castShadow receiveShadow>
           <boxGeometry args={[0.1, 2, 2]} />
-          <meshStandardMaterial color="#4169e1" transparent opacity={0.3} />
+          <meshStandardMaterial 
+            color="#4169e1" 
+            transparent 
+            opacity={0.4}
+            emissive="#001122"
+            emissiveIntensity={0.1}
+          />
         </mesh>
         
         {/* Door (initially locked) */}
         <mesh position={[11.5, 3, 0]} castShadow receiveShadow>
           <boxGeometry args={[0.2, 6, 2]} />
-          <meshStandardMaterial color="#8b4513" />
+          <meshStandardMaterial 
+            color="#8b4513"
+            emissive="#2d1810"
+            emissiveIntensity={0.05}
+          />
         </mesh>
 
         {/* Neighboring Houses */}

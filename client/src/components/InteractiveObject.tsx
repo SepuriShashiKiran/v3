@@ -88,34 +88,35 @@ export default function InteractiveObject({
 
   const handleInteraction = () => {
     if (!unlocked) {
-      console.log(`${name} is locked`);
+      console.log(`${name} is locked or inaccessible`);
       return;
     }
 
     if (requiredItem && !hasItem(requiredItem)) {
-      console.log(`${name} requires ${requiredItem}`);
+      console.log(`${name} requires ${requiredItem.replace('_', ' ')}`);
       return;
     }
 
-    console.log(`Interacting with ${name}`);
+    console.log(`Ayaan interacts with ${name}`);
     
     // Handle different interaction types
     switch (type) {
       case 'pickup':
         addItem(name.toLowerCase().replace(/\s+/g, '_'));
         setIsInteracted(true);
+        console.log(`Picked up: ${name}`);
         break;
       case 'examine':
-        // Show examination dialog or advance objective
+        console.log(`Examining: ${name}`);
         break;
       case 'hack':
-        // Trigger hacking minigame
+        console.log(`Attempting to hack: ${name}`);
         break;
       case 'unlock':
-        // Unlock mechanism
+        console.log(`Attempting to unlock: ${name}`);
         break;
       case 'puzzle':
-        // Start puzzle interaction
+        console.log(`Starting puzzle: ${name}`);
         break;
     }
 
@@ -128,7 +129,7 @@ export default function InteractiveObject({
   // Get interaction text based on type
   const getInteractionText = () => {
     if (!unlocked) return "LOCKED";
-    if (requiredItem && !hasItem(requiredItem)) return `REQUIRES ${requiredItem.toUpperCase()}`;
+    if (requiredItem && !hasItem(requiredItem)) return `REQUIRES ${requiredItem.replace('_', ' ').toUpperCase()}`;
     if (isInteracted && type === 'pickup') return "COLLECTED";
     
     switch (type) {
@@ -176,7 +177,7 @@ export default function InteractiveObject({
           </Text>
           <Text
             position={[0, 0, 0]}
-            fontSize={0.2}
+            fontSize={0.18}
             color="#ffffff"
             anchorX="center"
             anchorY="middle"
@@ -186,12 +187,12 @@ export default function InteractiveObject({
           </Text>
           <Text
             position={[0, -0.3, 0]}
-            fontSize={0.15}
+            fontSize={0.12}
             color="#888888"
             anchorX="center"
             anchorY="middle"
             font="/fonts/inter.json"
-            maxWidth={8}
+            maxWidth={6}
             textAlign="center"
           >
             {description}
@@ -201,13 +202,25 @@ export default function InteractiveObject({
 
       {/* Glow effect when highlighted */}
       {isPlayerNear && unlocked && (
-        <mesh position={[0, 0, 0]} scale={[1.1, 1.1, 1.1]}>
+        <mesh position={[0, 0, 0]} scale={[1.05, 1.05, 1.05]}>
           <boxGeometry args={size} />
           <meshBasicMaterial 
             color="#00ff41" 
             transparent 
-            opacity={0.1}
+            opacity={0.15}
             wireframe
+          />
+        </mesh>
+      )}
+
+      {/* Pulsing effect for important items */}
+      {isPlayerNear && unlocked && (type === 'hack' || type === 'unlock') && (
+        <mesh position={[0, 0, 0]} scale={[1.1, 1.1, 1.1]}>
+          <boxGeometry args={size} />
+          <meshBasicMaterial 
+            color={type === 'unlock' ? "#ff6b35" : "#4a90e2"} 
+            transparent 
+            opacity={0.2}
           />
         </mesh>
       )}
